@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A Wattpad-inspired storybook library featuring 30 original one-chapter stories.">
+  <title>Orange Pages — Storybook Library</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="index.html" aria-label="Orange Pages home"><span class="brand-mark">O</span><span>orange<span class="brand-light">pages</span></span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="active" href="index.html">Discover</a>
+      <a href="#library">Library</a>
+      <a href="#about">About</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">☾</button>
+      <span class="student-tag">ITE 1 PROJECT</span>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> YOUR NEXT FAVORITE STORY STARTS HERE</p>
+        <h1>Stories that stay<br><span>with you.</span></h1>
+        <p class="hero-description">Find a new world to fall into. Discover romance, mystery, fantasy, and more in our collection of original one-chapter reads.</p>
+        <a class="primary-button" href="#library">Explore stories <span aria-hidden="true">↗</span></a>
+        <div class="hero-stats"><div><strong>30</strong><span>original stories</span></div><div><strong>10+</strong><span>genres to explore</span></div><div><strong>1</strong><span>chapter each</span></div></div>
+      </div>
+      <div class="hero-art" aria-label="Featured story covers">
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        <img class="hero-cover cover-back" src="images/cover-02.svg" alt="Moonlit Academy book cover">
+        <img class="hero-cover cover-front" src="images/cover-01.svg" alt="The Last Letter book cover">
+        <div class="floating-note"><span class="note-star">✦</span><span><b>Find your next escape</b><small>One chapter. A whole new world.</small></span></div>
+      </div>
+    </section>
+    <section class="library-section" id="library">
+      <div class="section-heading"><div><p class="eyebrow">THE STORY COLLECTION</p><h2>Discover your next read</h2><p class="section-subtitle">Thirty stories. Different worlds. One place to begin.</p></div><div class="result-count" id="resultCount">30 stories</div></div>
+      <div class="toolbar">
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Search titles, authors, or keywords..." aria-label="Search stories"><kbd>⌕</kbd></label>
+        <label class="filter-label"><span>Genre</span><select id="genreFilter" aria-label="Filter by genre"><option value="all">All genres</option></select></label>
+        <button class="secondary-button" id="clearFilters" type="button">Clear filters</button>
+      </div>
+      <div class="genre-chips" id="genreChips" aria-label="Quick genre filters"></div>
+      <div class="book-grid" id="bookGrid" aria-live="polite"></div>
+      <div class="empty-state hidden" id="emptyState"><span>⌕</span><h3>No stories found</h3><p>Try a different title or genre.</p><button class="secondary-button" id="resetSearch" type="button">Show all stories</button></div>
+    </section>
+    <section class="about-section" id="about"><div class="about-icon">✦</div><div><p class="eyebrow">MADE FOR STORY LOVERS</p><h2>A small library of big feelings.</h2><p>Orange Pages is a student-made storybook website inspired by online reading communities. Each book includes one original chapter, a synopsis, and an illustration.</p></div><a href="#top" class="back-top">Back to top ↑</a></section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="index.html"><span class="brand-mark">O</span><span>orange<span class="brand-light">pages</span></span></a><p>Created by <strong>John Carlo M. Tenedero</strong> · BSIT-21006</p><p>ITE 1 Project · HTML, CSS &amp; JavaScript</p></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

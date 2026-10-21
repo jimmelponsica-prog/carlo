@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d9488"/><stop offset="1" stop-color="#134e4a"/></linearGradient></defs>
+<rect width="900" height="520" fill="url(#g)"/>
+<circle cx="720" cy="150" r="110" fill="#fff" opacity=".12"/><circle cx="160" cy="430" r="190" fill="#fff" opacity=".07"/>
+<path d="M0 430 Q130 300 280 430 T590 420 T900 390 V520 H0Z" fill="#08111f" opacity=".35"/>
+<g fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="3"><circle cx="690" cy="180" r="65"/><path d="M690 95 L707 160 L775 180 L707 200 L690 265 L673 200 L605 180 L673 160Z"/></g>
+<text x="60" y="95" fill="#fff" font-family="Arial" font-size="18" letter-spacing="6">INSPIRATIONAL</text>
+<text x="60" y="155" fill="#fff" font-family="Georgia" font-size="34" font-weight="bold">Blueprints for Tomorrow</text>
+<text x="60" y="198" fill="#fff" font-family="Arial" font-size="18" opacity=".85">A story of courage, change, and possibility</text>
+<text x="60" y="470" fill="#fff" font-family="Arial" font-size="13" letter-spacing="3" opacity=".8">ILLUSTRATED STORY SCENE</text></svg>
